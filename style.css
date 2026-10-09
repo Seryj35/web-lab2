@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* Форма обратной связи */
+
+.feedback-form {
+    width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.feedback-form label,
+.feedback-form p {
+    display: block;
+    margin-top: 15px;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form select,
+.feedback-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.feedback-form textarea {
+    resize: vertical;
+}
+
+.feedback-form button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.feedback-page {
+    min-height: 100vh;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("images/photo1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Форма авторизации */
+
+.login-page {
+    min-height: 100vh;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("images/photo1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.login-form {
+    width: 350px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.login-form h1 {
+    text-align: center;
+}
+
+.login-form label {
+    display: block;
+    margin-top: 15px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
