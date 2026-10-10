@@ -46,9 +46,6 @@ footer {
 }
 
 
-
-/* Форма обратной связи */
-
 .feedback-form {
     width: 500px;
     margin: 30px auto;
@@ -96,8 +93,6 @@ footer {
     background-size: cover;
     background-position: center;
 }
-
-/* Форма авторизации */
 
 .login-page {
     min-height: 100vh;
