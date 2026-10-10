@@ -8,7 +8,17 @@
 </head>
 
 <body class="feedback-page">
-
+    <header>
+        <h1>Виды фотографии</h1>
+        <nav>
+            <a href="index.html#photo">Фотография</a>
+            <a href="index.html#types">Основные виды фотографии</a>
+            <a href="index.html#objects">Объекты съёмки</a>
+            <a href="index.html#contacts">Контакты</a>
+            <a href="login.html">Войти</a>
+            <a href="feedback.html">Обратная связь</a>
+        </nav>
+    </header>
     <form class="feedback-form"
         action="https://httpbin.org/post"
         method="POST"
@@ -26,17 +36,12 @@
 
         <label>
             <input type="radio" name="source" value="internet" required>
-            Интернет
+            Из Интернета
         </label>
 
         <label>
             <input type="radio" name="source" value="friends">
             От друзей
-        </label>
-
-        <label>
-            <input type="radio" name="source" value="social">
-            Социальные сети
         </label>
 
         <label for="type">Тип обращения:</label>
@@ -59,6 +64,9 @@
         <button type="submit">Отправить</button>
 
     </form>
-
+    <footer id="contacts">
+    <p>Почта: vasovsergej@gmail.com</p>
+    <p>© 2026</p>
+</footer>
 </body>
 </html>
